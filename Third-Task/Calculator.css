@@ -1,0 +1,102 @@
+ 
+   *{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+   } 
+   .calculator {
+    border: 1px solid #000;
+    width: 20%;
+    height:30%;
+    padding-bottom:1%;
+    margin: 10% auto;
+    background-color:#2196e3;
+    border-radius: 20px;
+   }
+   #screen {
+    width: 90%;
+    height:50px;
+    margin: 5% auto;
+background-color: #fff;
+color: #000;
+    padding-right: 3px;
+    border: 1px solid #000;
+    text-align: right;
+    font-size: 30px;
+    border-radius: 10px;
+   } 
+   .button-board {
+   height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    padding:0 0 0 7%;
+   }   
+   .btn {
+    flex-basis:18%;
+    height: 40px;
+    text-align: center;
+    margin-left: 2%;
+    background-color: #1867c2;
+    font-size: 50px;
+    color: #fff;
+    border-radius: 10px;
+    font-size: larger;
+    margin: 2%;
+
+   
+   }
+
+
+
+   @media only screen and (min-width:1280px) and (max-width:1281px){
+
+section
+{
+  width: 100%;
+  justify-content: space-around;
+}
+}
+   
+
+
+
+    @media only screen and (min-width:767px) and (max-width:1024px){
+
+.calculator
+{
+  width: 50%;
+margin: 30px auto;
+}
+#screen
+{
+  width: 100%;
+}
+.button-board
+{
+   height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    padding:0 0 0 7%;
+}
+} 
+
+
+   @media only screen and (min-width:480px) and (max-width:766px){
+
+.calculator
+{
+  width: 95%;
+margin: 30px auto;
+}
+#screen
+{
+  width: 100%;
+}
+.button-board
+{
+   height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    padding:0 0 0 7%;
+}
+}

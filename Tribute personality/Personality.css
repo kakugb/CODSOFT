@@ -1,0 +1,62 @@
+body
+{
+	background-color: #02f360b5;
+}
+.name
+{
+	font-size: 60px;
+	font-weight: bolder;
+	display: flex;
+	justify-content: center;
+	font-family: monospace;
+}
+.Picture img
+{
+	width: 60%;
+	height: 500px;
+	border-radius: 10px;
+	display: flex;
+    margin: 10px auto;
+}
+#descrp
+{
+font-size: 25px;
+font-weight: bold;
+font-family: monospace;	
+text-align: center;
+}
+.About-Legend
+{
+	z-index: 1;
+	width: 80%;
+	background-color: #02f360b5;
+}
+#head
+{
+	font-size: 50px;
+	color: white;
+	font-weight: bolder;
+	display: flex;
+	justify-content: center;
+	font-family: monospace;
+	padding: 90px 0 20px 0;
+}
+.About-Legend
+{
+	margin: 10px auto;
+}
+
+#about
+{
+	font-size: 20px;
+	font-family: monospace;
+	padding: 10px 20px;
+
+}
+
+#more
+{
+font-size: 20px;
+font-family: monospace;	
+text-align: center;
+}
